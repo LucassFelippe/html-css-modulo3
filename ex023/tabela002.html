@@ -13,6 +13,7 @@
             width: 500px;
             height: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td,th{
             border: 1px solid black;
@@ -28,11 +29,28 @@
             color: black;
         }
         tfoot{
-            background-color: gray;
+            background-color: rgb(22, 22, 22);
             color: white;
         }
         td.num{
             text-align: right;
+        }
+        caption{
+           background-color: rgba(0, 0, 0, 0.295);
+           color: black;
+           padding: 10px;
+           font-size: 1.5em;
+        }
+        
+        tbody > tr:nth-child(odd){
+            background-color: rgba(37, 36, 36, 0.623);
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(8, 8, 8);
         }
 
     </style>
@@ -51,7 +69,7 @@
             TR, TD, TH
     -->
     <table>
-        <caption>População das unidades Federativas</caption>
+        <caption><strong>População das unidades Federativas</strong></caption>
         <thead>
             <tr>
                 <th scope="col">Estado</th>
