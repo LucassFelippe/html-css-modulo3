@@ -13,12 +13,18 @@
 <body>
     <h1>Formularios</h1>
     <p>Meu Primeiro formulario</p>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <div id="buttom">
-            <p><input type="submit" value="Enviar"></p>
-        </div>
+    <form action="cadastro.php">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
     </form>
 </body>
 </html>
