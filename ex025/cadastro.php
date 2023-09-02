@@ -1,2 +1,1 @@
-Os dados foram enviados!
-Aprenda PHP para saber o que fazer com eles!
+Parabéns voce fez a melhor escolha ! Você sempre faz ! Te amo !

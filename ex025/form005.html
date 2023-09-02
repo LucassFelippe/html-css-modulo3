@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <input type="radio" name="op1" id="iop1"> <label for="iop1">Laiza eu te amo, vamos pedir pizza !</label>
+            <br>
+            <input type="radio" name="op2" id="iop2"> <label for="iop2">Laiza eu te amo, vamos pedir xis !</label>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" checked> <label for="isxmas">Masculino</label>
+            <br>
+            <input type="radio" name="sexo" id="isxfem"> <label for="isxfem"> Femino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut" checked><label for="iesfut">Futebol</label> <br>
+
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label> <br>
+
+            <input type="checkbox" name="esvol" id="iesvol"><label for="iesvol">Volei</label> <br>
+
+            <input type="checkbox" name="estenis" id="iestenis"><label for="iestenis">Teni</label>s <br>
+
+            <input type="checkbox" name="esport" id="iesport"><label for="iesport">E-sports</label> <br>
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
