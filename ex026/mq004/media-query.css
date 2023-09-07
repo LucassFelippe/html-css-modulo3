@@ -2,3 +2,35 @@
 
 /* Todas as medias */
 
+/* typical device breakpoints
+
+Telas pequenas - 600px
+Mobile devices – 600px — 768px.
+iPads, Tablets – 768px — 992px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+
+*/
+
+@media print {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* tablet */
+    body{
+        background-image: url(imagens/back-tablet.jpg);
+}
+
+    img#phone{display: none; margin: auto;}
+    img#tablet{display: block; margin: auto;}
+    img#tv{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url();
+    }
+    
+}

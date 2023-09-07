@@ -38,8 +38,7 @@ h1{
 }
 
 
-img#phone{display: block;
-margin: auto;}
+img#phone{display: block; margin: auto;}
 img#tablet{display: none;}
 img#tv{display: none;}
 img#print{display: none;}
